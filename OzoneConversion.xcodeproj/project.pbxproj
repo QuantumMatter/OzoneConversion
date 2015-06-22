@@ -14,6 +14,7 @@
 		04BDE5541B3867B200696348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5531B3867B200696348 /* Images.xcassets */; };
 		04BDE5571B3867B200696348 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5551B3867B200696348 /* LaunchScreen.xib */; };
 		04BDE5631B3867B200696348 /* OzoneConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5621B3867B200696348 /* OzoneConversionTests.m */; };
+		04BDE56F1B38698C00696348 /* Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE56E1B38698C00696348 /* Conversion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		04BDE55C1B3867B200696348 /* OzoneConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzoneConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BDE5611B3867B200696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BDE5621B3867B200696348 /* OzoneConversionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OzoneConversionTests.m; sourceTree = "<group>"; };
+		04BDE56D1B38698C00696348 /* Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversion.h; sourceTree = "<group>"; };
+		04BDE56E1B38698C00696348 /* Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		04BDE5451B3867B200696348 /* OzoneConversion */ = {
 			isa = PBXGroup;
 			children = (
+				04BDE56C1B38696A00696348 /* Conversion */,
 				04BDE54A1B3867B200696348 /* AppDelegate.h */,
 				04BDE54B1B3867B200696348 /* AppDelegate.m */,
 				04BDE54D1B3867B200696348 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				04BDE5611B3867B200696348 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BDE56C1B38696A00696348 /* Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				04BDE56D1B38698C00696348 /* Conversion.h */,
+				04BDE56E1B38698C00696348 /* Conversion.m */,
+			);
+			name = Conversion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BDE54F1B3867B200696348 /* ViewController.m in Sources */,
+				04BDE56F1B38698C00696348 /* Conversion.m in Sources */,
 				04BDE54C1B3867B200696348 /* AppDelegate.m in Sources */,
 				04BDE5491B3867B200696348 /* main.m in Sources */,
 			);
@@ -412,6 +426,7 @@
 				04BDE5681B3867B200696348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BDE5691B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversionTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				04BDE56B1B3867B200696348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
