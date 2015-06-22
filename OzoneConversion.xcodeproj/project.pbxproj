@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BDE5491B3867B200696348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5481B3867B200696348 /* main.m */; };
+		04BDE54C1B3867B200696348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE54B1B3867B200696348 /* AppDelegate.m */; };
+		04BDE54F1B3867B200696348 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE54E1B3867B200696348 /* ViewController.m */; };
+		04BDE5521B3867B200696348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5501B3867B200696348 /* Main.storyboard */; };
+		04BDE5541B3867B200696348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5531B3867B200696348 /* Images.xcassets */; };
+		04BDE5571B3867B200696348 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5551B3867B200696348 /* LaunchScreen.xib */; };
+		04BDE5631B3867B200696348 /* OzoneConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5621B3867B200696348 /* OzoneConversionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BDE55D1B3867B200696348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BDE53B1B3867B200696348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BDE5421B3867B200696348;
+			remoteInfo = OzoneConversion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BDE5431B3867B200696348 /* OzoneConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OzoneConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDE5471B3867B200696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDE5481B3867B200696348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BDE54A1B3867B200696348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BDE54B1B3867B200696348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BDE54D1B3867B200696348 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BDE54E1B3867B200696348 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BDE5511B3867B200696348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BDE5531B3867B200696348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04BDE5561B3867B200696348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04BDE55C1B3867B200696348 /* OzoneConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzoneConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDE5611B3867B200696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDE5621B3867B200696348 /* OzoneConversionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OzoneConversionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BDE5401B3867B200696348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDE5591B3867B200696348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BDE53A1B3867B200696348 = {
+			isa = PBXGroup;
+			children = (
+				04BDE5451B3867B200696348 /* OzoneConversion */,
+				04BDE55F1B3867B200696348 /* OzoneConversionTests */,
+				04BDE5441B3867B200696348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BDE5441B3867B200696348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BDE5431B3867B200696348 /* OzoneConversion.app */,
+				04BDE55C1B3867B200696348 /* OzoneConversionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BDE5451B3867B200696348 /* OzoneConversion */ = {
+			isa = PBXGroup;
+			children = (
+				04BDE54A1B3867B200696348 /* AppDelegate.h */,
+				04BDE54B1B3867B200696348 /* AppDelegate.m */,
+				04BDE54D1B3867B200696348 /* ViewController.h */,
+				04BDE54E1B3867B200696348 /* ViewController.m */,
+				04BDE5501B3867B200696348 /* Main.storyboard */,
+				04BDE5531B3867B200696348 /* Images.xcassets */,
+				04BDE5551B3867B200696348 /* LaunchScreen.xib */,
+				04BDE5461B3867B200696348 /* Supporting Files */,
+			);
+			path = OzoneConversion;
+			sourceTree = "<group>";
+		};
+		04BDE5461B3867B200696348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BDE5471B3867B200696348 /* Info.plist */,
+				04BDE5481B3867B200696348 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BDE55F1B3867B200696348 /* OzoneConversionTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BDE5621B3867B200696348 /* OzoneConversionTests.m */,
+				04BDE5601B3867B200696348 /* Supporting Files */,
+			);
+			path = OzoneConversionTests;
+			sourceTree = "<group>";
+		};
+		04BDE5601B3867B200696348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BDE5611B3867B200696348 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BDE5421B3867B200696348 /* OzoneConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BDE5661B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversion" */;
+			buildPhases = (
+				04BDE53F1B3867B200696348 /* Sources */,
+				04BDE5401B3867B200696348 /* Frameworks */,
+				04BDE5411B3867B200696348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OzoneConversion;
+			productName = OzoneConversion;
+			productReference = 04BDE5431B3867B200696348 /* OzoneConversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BDE55B1B3867B200696348 /* OzoneConversionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BDE5691B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversionTests" */;
+			buildPhases = (
+				04BDE5581B3867B200696348 /* Sources */,
+				04BDE5591B3867B200696348 /* Frameworks */,
+				04BDE55A1B3867B200696348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BDE55E1B3867B200696348 /* PBXTargetDependency */,
+			);
+			name = OzoneConversionTests;
+			productName = OzoneConversionTests;
+			productReference = 04BDE55C1B3867B200696348 /* OzoneConversionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BDE53B1B3867B200696348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = davidkopala;
+				TargetAttributes = {
+					04BDE5421B3867B200696348 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					04BDE55B1B3867B200696348 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 04BDE5421B3867B200696348;
+					};
+				};
+			};
+			buildConfigurationList = 04BDE53E1B3867B200696348 /* Build configuration list for PBXProject "OzoneConversion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BDE53A1B3867B200696348;
+			productRefGroup = 04BDE5441B3867B200696348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BDE5421B3867B200696348 /* OzoneConversion */,
+				04BDE55B1B3867B200696348 /* OzoneConversionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BDE5411B3867B200696348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDE5521B3867B200696348 /* Main.storyboard in Resources */,
+				04BDE5571B3867B200696348 /* LaunchScreen.xib in Resources */,
+				04BDE5541B3867B200696348 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDE55A1B3867B200696348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BDE53F1B3867B200696348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDE54F1B3867B200696348 /* ViewController.m in Sources */,
+				04BDE54C1B3867B200696348 /* AppDelegate.m in Sources */,
+				04BDE5491B3867B200696348 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDE5581B3867B200696348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDE5631B3867B200696348 /* OzoneConversionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BDE55E1B3867B200696348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BDE5421B3867B200696348 /* OzoneConversion */;
+			targetProxy = 04BDE55D1B3867B200696348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BDE5501B3867B200696348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BDE5511B3867B200696348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BDE5551B3867B200696348 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BDE5561B3867B200696348 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BDE5641B3867B200696348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BDE5651B3867B200696348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BDE5671B3867B200696348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OzoneConversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BDE5681B3867B200696348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OzoneConversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BDE56A1B3867B200696348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OzoneConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OzoneConversion.app/OzoneConversion";
+			};
+			name = Debug;
+		};
+		04BDE56B1B3867B200696348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OzoneConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OzoneConversion.app/OzoneConversion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BDE53E1B3867B200696348 /* Build configuration list for PBXProject "OzoneConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDE5641B3867B200696348 /* Debug */,
+				04BDE5651B3867B200696348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BDE5661B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDE5671B3867B200696348 /* Debug */,
+				04BDE5681B3867B200696348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BDE5691B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDE56A1B3867B200696348 /* Debug */,
+				04BDE56B1B3867B200696348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BDE53B1B3867B200696348 /* Project object */;
+}
