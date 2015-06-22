@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04BDE5421B3867B200696348"
+               BlueprintIdentifier = "04BDE5C31B38AE2400696348"
                BuildableName = "OzoneConversion.app"
                BlueprintName = "OzoneConversion"
                ReferencedContainer = "container:OzoneConversion.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04BDE55B1B3867B200696348"
+               BlueprintIdentifier = "04BDE5E21B38AE2500696348"
                BuildableName = "OzoneConversionTests.xctest"
                BlueprintName = "OzoneConversionTests"
                ReferencedContainer = "container:OzoneConversion.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04BDE55B1B3867B200696348"
+               BlueprintIdentifier = "04BDE5E21B38AE2500696348"
                BuildableName = "OzoneConversionTests.xctest"
                BlueprintName = "OzoneConversionTests"
                ReferencedContainer = "container:OzoneConversion.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04BDE5421B3867B200696348"
+            BlueprintIdentifier = "04BDE5C31B38AE2400696348"
             BuildableName = "OzoneConversion.app"
             BlueprintName = "OzoneConversion"
             ReferencedContainer = "container:OzoneConversion.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04BDE5421B3867B200696348"
+            BlueprintIdentifier = "04BDE5C31B38AE2400696348"
             BuildableName = "OzoneConversion.app"
             BlueprintName = "OzoneConversion"
             ReferencedContainer = "container:OzoneConversion.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04BDE5421B3867B200696348"
+            BlueprintIdentifier = "04BDE5C31B38AE2400696348"
             BuildableName = "OzoneConversion.app"
             BlueprintName = "OzoneConversion"
             ReferencedContainer = "container:OzoneConversion.xcodeproj">

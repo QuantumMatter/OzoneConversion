@@ -37,7 +37,7 @@
 
 -(NSString *) AdjustedFlow:(NSString *)PSI Measured:(NSString *)Measured {
     double result = [Measured integerValue] * sqrt(([PSI integerValue] + 14.7) / 14.7);
-    return [NSString stringWithFormat:@"%f", result]; 
+    return [NSString stringWithFormat:@"%f", result];
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DryViewController.h
 //  OzoneConversion
 //
 //  Created by Mac on 6/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DryViewController : UIViewController
 
 @end
-

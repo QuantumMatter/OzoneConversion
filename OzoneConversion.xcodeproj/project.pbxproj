@@ -7,53 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BDE5491B3867B200696348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5481B3867B200696348 /* main.m */; };
-		04BDE54C1B3867B200696348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE54B1B3867B200696348 /* AppDelegate.m */; };
-		04BDE54F1B3867B200696348 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE54E1B3867B200696348 /* ViewController.m */; };
-		04BDE5521B3867B200696348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5501B3867B200696348 /* Main.storyboard */; };
-		04BDE5541B3867B200696348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5531B3867B200696348 /* Images.xcassets */; };
-		04BDE5571B3867B200696348 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5551B3867B200696348 /* LaunchScreen.xib */; };
-		04BDE5631B3867B200696348 /* OzoneConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5621B3867B200696348 /* OzoneConversionTests.m */; };
-		04BDE56F1B38698C00696348 /* Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE56E1B38698C00696348 /* Conversion.m */; };
+		04BDE5CA1B38AE2400696348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5C91B38AE2400696348 /* main.m */; };
+		04BDE5CD1B38AE2500696348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5CC1B38AE2500696348 /* AppDelegate.m */; };
+		04BDE5D01B38AE2500696348 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5CF1B38AE2500696348 /* RootViewController.m */; };
+		04BDE5D31B38AE2500696348 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5D21B38AE2500696348 /* DataViewController.m */; };
+		04BDE5D61B38AE2500696348 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5D51B38AE2500696348 /* ModelController.m */; };
+		04BDE5D91B38AE2500696348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5D71B38AE2500696348 /* Main.storyboard */; };
+		04BDE5DB1B38AE2500696348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5DA1B38AE2500696348 /* Images.xcassets */; };
+		04BDE5DE1B38AE2500696348 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BDE5DC1B38AE2500696348 /* LaunchScreen.xib */; };
+		04BDE5EA1B38AE2500696348 /* OzoneConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5E91B38AE2500696348 /* OzoneConversionTests.m */; };
+		04BDE5F51B38B6C700696348 /* FlowRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5F41B38B6C700696348 /* FlowRateViewController.m */; };
+		04BDE5F81B38B94000696348 /* FeedGasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5F71B38B94000696348 /* FeedGasViewController.m */; };
+		04BDE5FB1B38B94F00696348 /* DryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5FA1B38B94F00696348 /* DryViewController.m */; };
+		04BDE5FE1B38B96400696348 /* GeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE5FD1B38B96400696348 /* GeneratorViewController.m */; };
+		04BDE6011B38B97000696348 /* PPMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE6001B38B97000696348 /* PPMViewController.m */; };
+		04BDE6041B38B97C00696348 /* AdjFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE6031B38B97C00696348 /* AdjFlowViewController.m */; };
+		04BDE6071B38BE5500696348 /* Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE6061B38BE5500696348 /* Conversion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04BDE55D1B3867B200696348 /* PBXContainerItemProxy */ = {
+		04BDE5E41B38AE2500696348 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04BDE53B1B3867B200696348 /* Project object */;
+			containerPortal = 04BDE5BC1B38AE2400696348 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04BDE5421B3867B200696348;
+			remoteGlobalIDString = 04BDE5C31B38AE2400696348;
 			remoteInfo = OzoneConversion;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BDE5431B3867B200696348 /* OzoneConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OzoneConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BDE5471B3867B200696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04BDE5481B3867B200696348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04BDE54A1B3867B200696348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04BDE54B1B3867B200696348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04BDE54D1B3867B200696348 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04BDE54E1B3867B200696348 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04BDE5511B3867B200696348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04BDE5531B3867B200696348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		04BDE5561B3867B200696348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		04BDE55C1B3867B200696348 /* OzoneConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzoneConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BDE5611B3867B200696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04BDE5621B3867B200696348 /* OzoneConversionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OzoneConversionTests.m; sourceTree = "<group>"; };
-		04BDE56D1B38698C00696348 /* Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversion.h; sourceTree = "<group>"; };
-		04BDE56E1B38698C00696348 /* Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversion.m; sourceTree = "<group>"; };
+		04BDE5C41B38AE2400696348 /* OzoneConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OzoneConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDE5C81B38AE2400696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDE5C91B38AE2400696348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BDE5CB1B38AE2400696348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BDE5CC1B38AE2500696348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BDE5CE1B38AE2500696348 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		04BDE5CF1B38AE2500696348 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		04BDE5D11B38AE2500696348 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		04BDE5D21B38AE2500696348 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		04BDE5D41B38AE2500696348 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		04BDE5D51B38AE2500696348 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		04BDE5D81B38AE2500696348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BDE5DA1B38AE2500696348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04BDE5DD1B38AE2500696348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04BDE5E31B38AE2500696348 /* OzoneConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzoneConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDE5E81B38AE2500696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDE5E91B38AE2500696348 /* OzoneConversionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OzoneConversionTests.m; sourceTree = "<group>"; };
+		04BDE5F31B38B6C700696348 /* FlowRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowRateViewController.h; sourceTree = "<group>"; };
+		04BDE5F41B38B6C700696348 /* FlowRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowRateViewController.m; sourceTree = "<group>"; };
+		04BDE5F61B38B94000696348 /* FeedGasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedGasViewController.h; sourceTree = "<group>"; };
+		04BDE5F71B38B94000696348 /* FeedGasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedGasViewController.m; sourceTree = "<group>"; };
+		04BDE5F91B38B94F00696348 /* DryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryViewController.h; sourceTree = "<group>"; };
+		04BDE5FA1B38B94F00696348 /* DryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryViewController.m; sourceTree = "<group>"; };
+		04BDE5FC1B38B96400696348 /* GeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorViewController.h; sourceTree = "<group>"; };
+		04BDE5FD1B38B96400696348 /* GeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratorViewController.m; sourceTree = "<group>"; };
+		04BDE5FF1B38B97000696348 /* PPMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPMViewController.h; sourceTree = "<group>"; };
+		04BDE6001B38B97000696348 /* PPMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPMViewController.m; sourceTree = "<group>"; };
+		04BDE6021B38B97C00696348 /* AdjFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjFlowViewController.h; sourceTree = "<group>"; };
+		04BDE6031B38B97C00696348 /* AdjFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjFlowViewController.m; sourceTree = "<group>"; };
+		04BDE6051B38BE4B00696348 /* Conversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conversion.h; sourceTree = "<group>"; };
+		04BDE6061B38BE5500696348 /* Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04BDE5401B3867B200696348 /* Frameworks */ = {
+		04BDE5C11B38AE2400696348 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04BDE5591B3867B200696348 /* Frameworks */ = {
+		04BDE5E01B38AE2500696348 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,85 +87,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04BDE53A1B3867B200696348 = {
+		04BDE5BB1B38AE2400696348 = {
 			isa = PBXGroup;
 			children = (
-				04BDE5451B3867B200696348 /* OzoneConversion */,
-				04BDE55F1B3867B200696348 /* OzoneConversionTests */,
-				04BDE5441B3867B200696348 /* Products */,
+				04BDE5C61B38AE2400696348 /* OzoneConversion */,
+				04BDE5E61B38AE2500696348 /* OzoneConversionTests */,
+				04BDE5C51B38AE2400696348 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		04BDE5441B3867B200696348 /* Products */ = {
+		04BDE5C51B38AE2400696348 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04BDE5431B3867B200696348 /* OzoneConversion.app */,
-				04BDE55C1B3867B200696348 /* OzoneConversionTests.xctest */,
+				04BDE5C41B38AE2400696348 /* OzoneConversion.app */,
+				04BDE5E31B38AE2500696348 /* OzoneConversionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04BDE5451B3867B200696348 /* OzoneConversion */ = {
+		04BDE5C61B38AE2400696348 /* OzoneConversion */ = {
 			isa = PBXGroup;
 			children = (
-				04BDE56C1B38696A00696348 /* Conversion */,
-				04BDE54A1B3867B200696348 /* AppDelegate.h */,
-				04BDE54B1B3867B200696348 /* AppDelegate.m */,
-				04BDE54D1B3867B200696348 /* ViewController.h */,
-				04BDE54E1B3867B200696348 /* ViewController.m */,
-				04BDE5501B3867B200696348 /* Main.storyboard */,
-				04BDE5531B3867B200696348 /* Images.xcassets */,
-				04BDE5551B3867B200696348 /* LaunchScreen.xib */,
-				04BDE5461B3867B200696348 /* Supporting Files */,
+				04BDE6051B38BE4B00696348 /* Conversion.h */,
+				04BDE6061B38BE5500696348 /* Conversion.m */,
+				04BDE5CB1B38AE2400696348 /* AppDelegate.h */,
+				04BDE5CC1B38AE2500696348 /* AppDelegate.m */,
+				04BDE5CE1B38AE2500696348 /* RootViewController.h */,
+				04BDE5CF1B38AE2500696348 /* RootViewController.m */,
+				04BDE5D11B38AE2500696348 /* DataViewController.h */,
+				04BDE5D21B38AE2500696348 /* DataViewController.m */,
+				04BDE5D41B38AE2500696348 /* ModelController.h */,
+				04BDE5D51B38AE2500696348 /* ModelController.m */,
+				04BDE5D71B38AE2500696348 /* Main.storyboard */,
+				04BDE5DA1B38AE2500696348 /* Images.xcassets */,
+				04BDE5DC1B38AE2500696348 /* LaunchScreen.xib */,
+				04BDE5C71B38AE2400696348 /* Supporting Files */,
+				04BDE5F31B38B6C700696348 /* FlowRateViewController.h */,
+				04BDE5F41B38B6C700696348 /* FlowRateViewController.m */,
+				04BDE5F61B38B94000696348 /* FeedGasViewController.h */,
+				04BDE5F71B38B94000696348 /* FeedGasViewController.m */,
+				04BDE5F91B38B94F00696348 /* DryViewController.h */,
+				04BDE5FA1B38B94F00696348 /* DryViewController.m */,
+				04BDE5FC1B38B96400696348 /* GeneratorViewController.h */,
+				04BDE5FD1B38B96400696348 /* GeneratorViewController.m */,
+				04BDE5FF1B38B97000696348 /* PPMViewController.h */,
+				04BDE6001B38B97000696348 /* PPMViewController.m */,
+				04BDE6021B38B97C00696348 /* AdjFlowViewController.h */,
+				04BDE6031B38B97C00696348 /* AdjFlowViewController.m */,
 			);
 			path = OzoneConversion;
 			sourceTree = "<group>";
 		};
-		04BDE5461B3867B200696348 /* Supporting Files */ = {
+		04BDE5C71B38AE2400696348 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04BDE5471B3867B200696348 /* Info.plist */,
-				04BDE5481B3867B200696348 /* main.m */,
+				04BDE5C81B38AE2400696348 /* Info.plist */,
+				04BDE5C91B38AE2400696348 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		04BDE55F1B3867B200696348 /* OzoneConversionTests */ = {
+		04BDE5E61B38AE2500696348 /* OzoneConversionTests */ = {
 			isa = PBXGroup;
 			children = (
-				04BDE5621B3867B200696348 /* OzoneConversionTests.m */,
-				04BDE5601B3867B200696348 /* Supporting Files */,
+				04BDE5E91B38AE2500696348 /* OzoneConversionTests.m */,
+				04BDE5E71B38AE2500696348 /* Supporting Files */,
 			);
 			path = OzoneConversionTests;
 			sourceTree = "<group>";
 		};
-		04BDE5601B3867B200696348 /* Supporting Files */ = {
+		04BDE5E71B38AE2500696348 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04BDE5611B3867B200696348 /* Info.plist */,
+				04BDE5E81B38AE2500696348 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		04BDE56C1B38696A00696348 /* Conversion */ = {
-			isa = PBXGroup;
-			children = (
-				04BDE56D1B38698C00696348 /* Conversion.h */,
-				04BDE56E1B38698C00696348 /* Conversion.m */,
-			);
-			name = Conversion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04BDE5421B3867B200696348 /* OzoneConversion */ = {
+		04BDE5C31B38AE2400696348 /* OzoneConversion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04BDE5661B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversion" */;
+			buildConfigurationList = 04BDE5ED1B38AE2500696348 /* Build configuration list for PBXNativeTarget "OzoneConversion" */;
 			buildPhases = (
-				04BDE53F1B3867B200696348 /* Sources */,
-				04BDE5401B3867B200696348 /* Frameworks */,
-				04BDE5411B3867B200696348 /* Resources */,
+				04BDE5C01B38AE2400696348 /* Sources */,
+				04BDE5C11B38AE2400696348 /* Frameworks */,
+				04BDE5C21B38AE2400696348 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,46 +181,46 @@
 			);
 			name = OzoneConversion;
 			productName = OzoneConversion;
-			productReference = 04BDE5431B3867B200696348 /* OzoneConversion.app */;
+			productReference = 04BDE5C41B38AE2400696348 /* OzoneConversion.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04BDE55B1B3867B200696348 /* OzoneConversionTests */ = {
+		04BDE5E21B38AE2500696348 /* OzoneConversionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04BDE5691B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversionTests" */;
+			buildConfigurationList = 04BDE5F01B38AE2500696348 /* Build configuration list for PBXNativeTarget "OzoneConversionTests" */;
 			buildPhases = (
-				04BDE5581B3867B200696348 /* Sources */,
-				04BDE5591B3867B200696348 /* Frameworks */,
-				04BDE55A1B3867B200696348 /* Resources */,
+				04BDE5DF1B38AE2500696348 /* Sources */,
+				04BDE5E01B38AE2500696348 /* Frameworks */,
+				04BDE5E11B38AE2500696348 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04BDE55E1B3867B200696348 /* PBXTargetDependency */,
+				04BDE5E51B38AE2500696348 /* PBXTargetDependency */,
 			);
 			name = OzoneConversionTests;
 			productName = OzoneConversionTests;
-			productReference = 04BDE55C1B3867B200696348 /* OzoneConversionTests.xctest */;
+			productReference = 04BDE5E31B38AE2500696348 /* OzoneConversionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		04BDE53B1B3867B200696348 /* Project object */ = {
+		04BDE5BC1B38AE2400696348 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = davidkopala;
 				TargetAttributes = {
-					04BDE5421B3867B200696348 = {
+					04BDE5C31B38AE2400696348 = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					04BDE55B1B3867B200696348 = {
+					04BDE5E21B38AE2500696348 = {
 						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 04BDE5421B3867B200696348;
+						TestTargetID = 04BDE5C31B38AE2400696348;
 					};
 				};
 			};
-			buildConfigurationList = 04BDE53E1B3867B200696348 /* Build configuration list for PBXProject "OzoneConversion" */;
+			buildConfigurationList = 04BDE5BF1B38AE2400696348 /* Build configuration list for PBXProject "OzoneConversion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -196,29 +228,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 04BDE53A1B3867B200696348;
-			productRefGroup = 04BDE5441B3867B200696348 /* Products */;
+			mainGroup = 04BDE5BB1B38AE2400696348;
+			productRefGroup = 04BDE5C51B38AE2400696348 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04BDE5421B3867B200696348 /* OzoneConversion */,
-				04BDE55B1B3867B200696348 /* OzoneConversionTests */,
+				04BDE5C31B38AE2400696348 /* OzoneConversion */,
+				04BDE5E21B38AE2500696348 /* OzoneConversionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04BDE5411B3867B200696348 /* Resources */ = {
+		04BDE5C21B38AE2400696348 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BDE5521B3867B200696348 /* Main.storyboard in Resources */,
-				04BDE5571B3867B200696348 /* LaunchScreen.xib in Resources */,
-				04BDE5541B3867B200696348 /* Images.xcassets in Resources */,
+				04BDE5D91B38AE2500696348 /* Main.storyboard in Resources */,
+				04BDE5DE1B38AE2500696348 /* LaunchScreen.xib in Resources */,
+				04BDE5DB1B38AE2500696348 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04BDE55A1B3867B200696348 /* Resources */ = {
+		04BDE5E11B38AE2500696348 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,48 +260,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04BDE53F1B3867B200696348 /* Sources */ = {
+		04BDE5C01B38AE2400696348 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BDE54F1B3867B200696348 /* ViewController.m in Sources */,
-				04BDE56F1B38698C00696348 /* Conversion.m in Sources */,
-				04BDE54C1B3867B200696348 /* AppDelegate.m in Sources */,
-				04BDE5491B3867B200696348 /* main.m in Sources */,
+				04BDE5D31B38AE2500696348 /* DataViewController.m in Sources */,
+				04BDE5CD1B38AE2500696348 /* AppDelegate.m in Sources */,
+				04BDE5F51B38B6C700696348 /* FlowRateViewController.m in Sources */,
+				04BDE5F81B38B94000696348 /* FeedGasViewController.m in Sources */,
+				04BDE6041B38B97C00696348 /* AdjFlowViewController.m in Sources */,
+				04BDE5FB1B38B94F00696348 /* DryViewController.m in Sources */,
+				04BDE5D61B38AE2500696348 /* ModelController.m in Sources */,
+				04BDE6011B38B97000696348 /* PPMViewController.m in Sources */,
+				04BDE5CA1B38AE2400696348 /* main.m in Sources */,
+				04BDE6071B38BE5500696348 /* Conversion.m in Sources */,
+				04BDE5D01B38AE2500696348 /* RootViewController.m in Sources */,
+				04BDE5FE1B38B96400696348 /* GeneratorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04BDE5581B3867B200696348 /* Sources */ = {
+		04BDE5DF1B38AE2500696348 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BDE5631B3867B200696348 /* OzoneConversionTests.m in Sources */,
+				04BDE5EA1B38AE2500696348 /* OzoneConversionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04BDE55E1B3867B200696348 /* PBXTargetDependency */ = {
+		04BDE5E51B38AE2500696348 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04BDE5421B3867B200696348 /* OzoneConversion */;
-			targetProxy = 04BDE55D1B3867B200696348 /* PBXContainerItemProxy */;
+			target = 04BDE5C31B38AE2400696348 /* OzoneConversion */;
+			targetProxy = 04BDE5E41B38AE2500696348 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04BDE5501B3867B200696348 /* Main.storyboard */ = {
+		04BDE5D71B38AE2500696348 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04BDE5511B3867B200696348 /* Base */,
+				04BDE5D81B38AE2500696348 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		04BDE5551B3867B200696348 /* LaunchScreen.xib */ = {
+		04BDE5DC1B38AE2500696348 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04BDE5561B3867B200696348 /* Base */,
+				04BDE5DD1B38AE2500696348 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -277,7 +317,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		04BDE5641B3867B200696348 /* Debug */ = {
+		04BDE5EB1B38AE2500696348 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		04BDE5651B3867B200696348 /* Release */ = {
+		04BDE5EC1B38AE2500696348 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,7 +393,7 @@
 			};
 			name = Release;
 		};
-		04BDE5671B3867B200696348 /* Debug */ = {
+		04BDE5EE1B38AE2500696348 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -363,7 +403,7 @@
 			};
 			name = Debug;
 		};
-		04BDE5681B3867B200696348 /* Release */ = {
+		04BDE5EF1B38AE2500696348 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -373,7 +413,7 @@
 			};
 			name = Release;
 		};
-		04BDE56A1B3867B200696348 /* Debug */ = {
+		04BDE5F11B38AE2500696348 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -392,7 +432,7 @@
 			};
 			name = Debug;
 		};
-		04BDE56B1B3867B200696348 /* Release */ = {
+		04BDE5F21B38AE2500696348 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,34 +450,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04BDE53E1B3867B200696348 /* Build configuration list for PBXProject "OzoneConversion" */ = {
+		04BDE5BF1B38AE2400696348 /* Build configuration list for PBXProject "OzoneConversion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04BDE5641B3867B200696348 /* Debug */,
-				04BDE5651B3867B200696348 /* Release */,
+				04BDE5EB1B38AE2500696348 /* Debug */,
+				04BDE5EC1B38AE2500696348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04BDE5661B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversion" */ = {
+		04BDE5ED1B38AE2500696348 /* Build configuration list for PBXNativeTarget "OzoneConversion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04BDE5671B3867B200696348 /* Debug */,
-				04BDE5681B3867B200696348 /* Release */,
+				04BDE5EE1B38AE2500696348 /* Debug */,
+				04BDE5EF1B38AE2500696348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		04BDE5691B3867B200696348 /* Build configuration list for PBXNativeTarget "OzoneConversionTests" */ = {
+		04BDE5F01B38AE2500696348 /* Build configuration list for PBXNativeTarget "OzoneConversionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04BDE56A1B3867B200696348 /* Debug */,
-				04BDE56B1B3867B200696348 /* Release */,
+				04BDE5F11B38AE2500696348 /* Debug */,
+				04BDE5F21B38AE2500696348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 04BDE53B1B3867B200696348 /* Project object */;
+	rootObject = 04BDE5BC1B38AE2400696348 /* Project object */;
 }
