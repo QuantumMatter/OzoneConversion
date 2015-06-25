@@ -113,6 +113,7 @@
             [button01 addTarget:self
                          action:@selector(fButton)
                forControlEvents:UIControlEventTouchUpInside];
+            break;
             
         case 2:
             [button01 addTarget:self
@@ -124,6 +125,7 @@
             [button01 addTarget:self
                          action:@selector(gButton)
                forControlEvents:UIControlEventTouchUpInside];
+            break;
             
         case 4:
             [button01 addTarget:self
@@ -135,6 +137,7 @@
             [button01 addTarget:self
                          action:@selector(aButton)
                forControlEvents:UIControlEventTouchUpInside];
+            break;
             
         default:
             break;
@@ -187,21 +190,17 @@
         return;
     }
     if (destination > from) {
-        //for (nil; from < destination; from++) {
-            UIPageViewController *view = (UIPageViewController *) self.parentViewController;
-            
-            UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:destination]];
-            NSArray *viewControllers = @[currentViewController];
-            [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
-        //}
+        UIPageViewController *view = (UIPageViewController *) self.parentViewController;
+        
+        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:destination]];
+        NSArray *viewControllers = @[currentViewController];
+        [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     } else {
-        //for (nil; from > destination; from--) {
-            UIPageViewController *view = (UIPageViewController *) self.parentViewController;
-            
-            UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:destination]];
-            NSArray *viewControllers = @[currentViewController];
-            [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
-        //}
+        UIPageViewController *view = (UIPageViewController *) self.parentViewController;
+        
+        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:destination]];
+        NSArray *viewControllers = @[currentViewController];
+        [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     }
 }
 

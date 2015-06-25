@@ -111,6 +111,7 @@
             [button01 addTarget:self
                          action:@selector(fButton)
                forControlEvents:UIControlEventTouchUpInside];
+            break;
             
         case 2:
             [button01 addTarget:self
@@ -122,6 +123,7 @@
             [button01 addTarget:self
                          action:@selector(gButton)
                forControlEvents:UIControlEventTouchUpInside];
+            break;
             
         case 4:
             [button01 addTarget:self
@@ -133,6 +135,7 @@
             [button01 addTarget:self
                          action:@selector(aButton)
                forControlEvents:UIControlEventTouchUpInside];
+            break;
             
         default:
             break;
@@ -148,27 +151,32 @@
 }
 
 -(void) wButton {
-    [self goTo:0 from:1];
+    [self goTo:[_vcIDs indexOfObject:@"FlowRateViewController"] from:0];
 }
 
 -(void) fButton {
-    [self goTo:1 from:1];
+    UIPageViewController *view = (UIPageViewController *) self.parentViewController;
+    
+    UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"FeedGasViewController"];
+    NSArray *viewControllers = @[currentViewController];
+    [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
+    //[self goTo:[_vcIDs indexOfObject:@"FeedGasViewController"] from:0];
 }
 
 -(void) dButton {
-    [self goTo:2 from:1];
+    [self goTo:2 from:0];
 }
 
 -(void) gButton {
-    [self goTo:3 from:1];
+    [self goTo:3 from:0];
 }
 
 -(void) pButton {
-    [self goTo:4 from:1];
+    [self goTo:4 from:0];
 }
 
 -(void) aButton {
-    [self goTo:5 from:1];
+    [self goTo:5 from:0];
 }
 
 
@@ -186,21 +194,17 @@
         return;
     }
     if (destination > from) {
-        for (nil; from < destination; from++) {
-            UIPageViewController *view = (UIPageViewController *) self.parentViewController;
-            
-            UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:from + 1]];
-            NSArray *viewControllers = @[currentViewController];
-            [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
-        }
+        UIPageViewController *view = (UIPageViewController *) self.parentViewController;
+        
+        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:from]];
+        NSArray *viewControllers = @[currentViewController];
+        [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     } else {
-        for (nil; from > destination; from--) {
-            UIPageViewController *view = (UIPageViewController *) self.parentViewController;
-            
-            UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:from - 1]];
-            NSArray *viewControllers = @[currentViewController];
-            [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
-        }
+        UIPageViewController *view = (UIPageViewController *) self.parentViewController;
+        
+        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:from]];
+        NSArray *viewControllers = @[currentViewController];
+        [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     }
 }
 
