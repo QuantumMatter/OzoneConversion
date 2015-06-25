@@ -12,6 +12,8 @@
 
 @interface RootViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *banner;
+@property (strong, nonatomic) IBOutlet UIButton *button;
 @property (readonly, strong, nonatomic) ModelController *modelController;
 @end
 
@@ -19,14 +21,34 @@
 
 @synthesize modelController = _modelController;
 
+- (IBAction)menu:(id)sender {
+    /*UIView *test = [[[NSBundle mainBundle] loadNibNamed:@"Menu" owner:self options:nil] objectAtIndex:0];
+    [self.view addSubview:test];*/
+    
+}
+
+-(void) setPosition:(NSUInteger *)index {
+    UIViewController *currentViewController = [self.pageViewController.viewControllers objectAtIndex:*index];
+    
+    NSArray *viewControllers = @[currentViewController];
+    [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
+}
+
 -  (void)viewDidLoad {
     [super viewDidLoad];
+    self.button.layer.zPosition = 50;
+    //self.banner.layer.zPosition = 1;
+    /*UIView *test = [[[NSBundle mainBundle] loadNibNamed:@"Menu" owner:self options:nil] objectAtIndex:0];
+    test.layer.zPosition = 10;
+    [self.view addSubview:test];*/
     // Do any additional setup after loading the view, typically from a nib.
     // Configure the page view controller and add it as a child view controller.
     self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     self.pageViewController.delegate = self;
     
+    self.modelController.parent = self;
     UIViewController *startingViewController = [self.modelController viewControllerAtIndex:0 storyboard:self.storyboard];
+    
     NSArray *viewControllers = @[startingViewController];
     [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     

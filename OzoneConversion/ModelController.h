@@ -7,13 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
 @class DataViewController;
 
 @interface ModelController : NSObject <UIPageViewControllerDataSource>
 
+-(void) goToController:(NSUInteger)position;
+
 - (UIViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard;
 - (NSUInteger)indexOfViewController:(UIViewController *)viewController;
+
+@property RootViewController *parent;
 
 @end
 

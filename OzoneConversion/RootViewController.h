@@ -11,6 +11,7 @@
 @interface RootViewController : UIViewController <UIPageViewControllerDelegate>
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
+-(void) setPosition:(NSUInteger *)index;
 
 @end
 

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModelController.h"
 
 @interface FlowRateViewController : UIViewController
+
+-(void) setParent:(ModelController*)view;
 
 @end
