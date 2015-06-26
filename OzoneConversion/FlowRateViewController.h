@@ -11,6 +11,4 @@
 
 @interface FlowRateViewController : UIViewController
 
--(void) setParent:(ModelController*)view;
-
 @end

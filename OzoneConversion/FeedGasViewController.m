@@ -22,6 +22,7 @@
     Conversion *conversion;
     bool menu;
     NSMutableArray *menuArray;
+    NSArray *_vcIDs;
 }
 
 - (IBAction)menuPressed:(id)sender {
@@ -151,7 +152,7 @@
 }
 
 -(void) wButton {
-    [self goTo:[_vcIDs indexOfObject:@"FlowRateViewController"] from:0];
+    [self goTo:[_vcIDs indexOfObject:@"FlowRateViewController"] from:1];
 }
 
 -(void) fButton {
@@ -160,35 +161,29 @@
     UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"FeedGasViewController"];
     NSArray *viewControllers = @[currentViewController];
     [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
-    //[self goTo:[_vcIDs indexOfObject:@"FeedGasViewController"] from:0];
+    //[self goTo:[_vcIDs indexOfObject:@"FeedGasViewController"] from:1];
 }
 
 -(void) dButton {
-    [self goTo:2 from:0];
+    [self goTo:2 from:1];
 }
 
 -(void) gButton {
-    [self goTo:3 from:0];
+    [self goTo:3 from:1];
 }
 
 -(void) pButton {
-    [self goTo:4 from:0];
+    [self goTo:4 from:1];
 }
 
 -(void) aButton {
-    [self goTo:5 from:0];
+    [self goTo:5 from:1];
 }
 
 
 -(void) goTo:(NSUInteger)destination from:(NSUInteger)from {
     [self hideMenu];
-    NSArray *_vcIDs = @[//@"DataViewController",
-                        @"FlowRateViewController",
-                        @"FeedGasViewController",
-                        @"DryViewController",
-                        @"GeneratorViewController",
-                        @"PPMViewController",
-                        @"AdjFlowViewController"];
+    from = [self indexOfViewController:self];
     
     if (destination == from) {
         return;
@@ -196,20 +191,39 @@
     if (destination > from) {
         UIPageViewController *view = (UIPageViewController *) self.parentViewController;
         
-        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:from]];
+        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:destination]];
         NSArray *viewControllers = @[currentViewController];
         [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     } else {
         UIPageViewController *view = (UIPageViewController *) self.parentViewController;
         
-        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:from]];
+        UIViewController *currentViewController = [self.storyboard instantiateViewControllerWithIdentifier:[_vcIDs objectAtIndex:destination]];
         NSArray *viewControllers = @[currentViewController];
         [view setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     }
 }
 
+- (NSUInteger)indexOfViewController:(UIViewController *)viewController {
+    // Return the index of the given data view controller.
+    // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
+    //[self.vcIDs indexOfObject:viewController.dataObject];
+    NSString *name = NSStringFromClass([viewController class]);
+    NSUInteger result = [_vcIDs indexOfObject:name];
+    if (result == NSNotFound) {
+        NSLog([NSString stringWithFormat:@"Error In Index; Name = %@", name]);
+    }
+    return result;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _vcIDs = @[//@"DataViewController",
+               @"FlowRateViewController",
+               @"FeedGasViewController",
+               @"DryViewController",
+               @"GeneratorViewController",
+               @"PPMViewController",
+               @"AdjFlowViewController"];
     [self loadMenuComponents];
     //self.menuButton.hidden = true;
     conversion = [[Conversion alloc] init];
