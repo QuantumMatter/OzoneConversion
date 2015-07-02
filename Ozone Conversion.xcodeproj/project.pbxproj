@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BDE5C41B38AE2400696348 /* OzoneConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OzoneConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDE5C41B38AE2400696348 /* Ozone Conversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ozone Conversion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BDE5C81B38AE2400696348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BDE5C91B38AE2400696348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04BDE5CB1B38AE2400696348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		04BDE5C51B38AE2400696348 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04BDE5C41B38AE2400696348 /* OzoneConversion.app */,
+				04BDE5C41B38AE2400696348 /* Ozone Conversion.app */,
 				04BDE5E31B38AE2500696348 /* OzoneConversionTests.xctest */,
 			);
 			name = Products;
@@ -184,7 +184,7 @@
 			);
 			name = OzoneConversion;
 			productName = OzoneConversion;
-			productReference = 04BDE5C41B38AE2400696348 /* OzoneConversion.app */;
+			productReference = 04BDE5C41B38AE2400696348 /* Ozone Conversion.app */;
 			productType = "com.apple.product-type.application";
 		};
 		04BDE5E21B38AE2500696348 /* OzoneConversionTests */ = {
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04BDE5BF1B38AE2400696348 /* Build configuration list for PBXProject "OzoneConversion" */;
+			buildConfigurationList = 04BDE5BF1B38AE2400696348 /* Build configuration list for PBXProject "Ozone Conversion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -408,7 +408,7 @@
 				INFOPLIST_FILE = OzoneConversion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ozone Conversion";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -423,7 +423,7 @@
 				INFOPLIST_FILE = OzoneConversion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ozone Conversion";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -465,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04BDE5BF1B38AE2400696348 /* Build configuration list for PBXProject "OzoneConversion" */ = {
+		04BDE5BF1B38AE2400696348 /* Build configuration list for PBXProject "Ozone Conversion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04BDE5EB1B38AE2500696348 /* Debug */,
